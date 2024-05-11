@@ -1,0 +1,72 @@
+// variables
+$primary-color: #333;
+$accent-color: #fff;
+
+// Reset some default styles
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: $primary-color;
+    color: $accent-color;
+    padding: 20px 0;
+
+    h1 {
+        float: left;
+    }
+
+    nav {
+        ul {
+            float: right;
+
+            li {
+                display: inline;
+                margin-left: 20px;
+
+                a {
+                    color: $accent-color;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+section {
+    padding: 50px 0;
+
+    h2 {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
+
+.portfolio-item {
+    text-align: center;
+    margin-bottom: 30px;
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+footer {
+    background: $primary-color;
+    color: $accent-color;
+    text-align: center;
+    padding: 20px 0;
+}
